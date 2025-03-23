@@ -32,14 +32,15 @@ function Edit({
   attributes,
   setAttributes
 }) {
-  const MC_TEMPLATE = [['core/paragraph', {}]];
+  const MC_TEMPLATE = [['core/image', {}], ['core/paragraph', {
+    content: 'Text content'
+  }]];
   const blockProps = (0,_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_0__.useBlockProps)({
-    className: 'sim-slide'
+    className: 'sim-slide sim-slide-single-editor'
   });
   const innerBlocksProps = (0,_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_0__.useInnerBlocksProps)(blockProps, {
     template: MC_TEMPLATE
   });
-  //	<InnerBlocks className='ooooooo' template={ MC_TEMPLATE } { ...useBlockProps() } />
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
     ...innerBlocksProps
   });

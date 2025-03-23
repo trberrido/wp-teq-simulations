@@ -1,1 +1,1 @@
-{"version":3,"file":"slide/index.css","mappings":";;;AAAA;EACC;AACD,C","sources":["webpack://blocks/./src/slide/editor.scss"],"sourcesContent":[".sim-slide {\n\tdisplay: flex;\n}\n"],"names":[],"sourceRoot":""}
+{"version":3,"file":"slide/index.css","mappings":";;;AAAA;EACC;AACD,C","sources":["webpack://blocks/./src/slide/editor.scss"],"sourcesContent":[".sim-slide-single-editor {\n\tborder: 1px dotted var(--wp--custom--color--neutral--300);\n}"],"names":[],"sourceRoot":""}
