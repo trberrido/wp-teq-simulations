@@ -1,0 +1,237 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"styles":{
+		"typography": {
+			"fontFamily": "\"notosans\", sans-serif"
+		},
+		"color": {
+			"text": "var(--wp--preset--color--neutral-100)",
+			"background": "var(--wp--preset--color--neutral-800)"
+		}
+	},
+	"settings": {
+		"typography": {
+			"fontFamilies": [
+				{
+					"name": "default",
+					"slug": "default",
+					"fontFamily": "\"notosans\", sans-serif",
+					"fontFace": [
+						{
+							"fontFamily": "notosans",
+							"fontVariationSettings": "'WGHT' 100",
+							"fontWeight": "100",
+							"fontStyle": "normal",
+							"src": ["file:./assets/fonts/NotoSans-VariableFont_wdth,wght.woff2"]
+						},
+						{
+							"fontFamily": "notosans",
+							"fontVariationSettings": "'WGHT' 200",
+							"fontWeight": "200",
+							"fontStyle": "normal",
+							"src": ["file:./assets/fonts/NotoSans-VariableFont_wdth,wght.woff2"]
+						},
+						{
+							"fontFamily": "notosans",
+							"fontVariationSettings": "'WGHT' 300",
+							"fontWeight": "300",
+							"fontStyle": "normal",
+							"src": ["file:./assets/fonts/NotoSans-VariableFont_wdth,wght.woff2"]
+						},
+						{
+							"fontFamily": "notosans",
+							"fontVariationSettings": "'WGHT' 400",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"src": ["file:./assets/fonts/NotoSans-VariableFont_wdth,wght.woff2"]
+						},
+						{
+							"fontFamily": "notosans",
+							"fontVariationSettings": "'WGHT' 500",
+							"fontWeight": "500",
+							"fontStyle": "normal",
+							"src": ["file:./assets/fonts/NotoSans-VariableFont_wdth,wght.woff2"]
+						},
+						{
+							"fontFamily": "notosans",
+							"fontVariationSettings": "'WGHT' 600",
+							"fontWeight": "600",
+							"fontStyle": "normal",
+							"src": ["file:./assets/fonts/NotoSans-VariableFont_wdth,wght.woff2"]
+						},
+						{
+							"fontFamily": "notosans",
+							"fontVariationSettings": "'WGHT' 700",
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"src": ["file:./assets/fonts/NotoSans-VariableFont_wdth,wght.woff2"]
+						},
+						{
+							"fontFamily": "notosans",
+							"fontVariationSettings": "'WGHT' 800",
+							"fontWeight": "800",
+							"fontStyle": "normal",
+							"src": ["file:./assets/fonts/NotoSans-VariableFont_wdth,wght.woff2"]
+						},
+						{
+							"fontFamily": "notosans",
+							"fontVariationSettings": "'WGHT' 900",
+							"fontWeight": "900",
+							"fontStyle": "normal",
+							"src": ["file:./assets/fonts/NotoSans-VariableFont_wdth,wght.woff2"]
+						},
+
+						{
+							"fontFamily": "notosans",
+							"fontVariationSettings": "'WGHT' 100",
+							"fontWeight": "100",
+							"fontStyle": "italic",
+							"src": ["file:./assets/fonts/NotoSans-Italic-VariableFont_wdth,wght.woff2"]
+						},
+						{
+							"fontFamily": "notosans",
+							"fontVariationSettings": "'WGHT' 200",
+							"fontWeight": "200",
+							"fontStyle": "italic",
+							"src": ["file:./assets/fonts/NotoSans-Italic-VariableFont_wdth,wght.woff2"]
+						},
+						{
+							"fontFamily": "notosans",
+							"fontVariationSettings": "'WGHT' 200",
+							"fontWeight": "200",
+							"fontStyle": "italic",
+							"src": ["file:./assets/fonts/NotoSans-Italic-VariableFont_wdth,wght.woff2"]
+						},
+						{
+							"fontFamily": "notosans",
+							"fontVariationSettings": "'WGHT' 300",
+							"fontWeight": "300",
+							"fontStyle": "italic",
+							"src": ["file:./assets/fonts/NotoSans-Italic-VariableFont_wdth,wght.woff2"]
+						},
+						{
+							"fontFamily": "notosans",
+							"fontVariationSettings": "'WGHT' 400",
+							"fontWeight": "400",
+							"fontStyle": "italic",
+							"src": ["file:./assets/fonts/NotoSans-Italic-VariableFont_wdth,wght.woff2"]
+						},
+						{
+							"fontFamily": "notosans",
+							"fontVariationSettings": "'WGHT' 500",
+							"fontWeight": "500",
+							"fontStyle": "italic",
+							"src": ["file:./assets/fonts/NotoSans-Italic-VariableFont_wdth,wght.woff2"]
+						},
+						{
+							"fontFamily": "notosans",
+							"fontVariationSettings": "'WGHT' 600",
+							"fontWeight": "600",
+							"fontStyle": "italic",
+							"src": ["file:./assets/fonts/NotoSans-Italic-VariableFont_wdth,wght.woff2"]
+						},
+						{
+							"fontFamily": "notosans",
+							"fontVariationSettings": "'WGHT' 700",
+							"fontWeight": "700",
+							"fontStyle": "italic",
+							"src": ["file:./assets/fonts/NotoSans-Italic-VariableFont_wdth,wght.woff2"]
+						},
+						{
+							"fontFamily": "notosans",
+							"fontVariationSettings": "'WGHT' 800",
+							"fontWeight": "800",
+							"fontStyle": "italic",
+							"src": ["file:./assets/fonts/NotoSans-Italic-VariableFont_wdth,wght.woff2"]
+						},
+						{
+							"fontFamily": "notosans",
+							"fontVariationSettings": "'WGHT' 900",
+							"fontWeight": "900",
+							"fontStyle": "italic",
+							"src": ["file:./assets/fonts/NotoSans-Italic-VariableFont_wdth,wght.woff2"]
+						}
+					]
+				}
+			]
+		},
+		"spacing": {
+			"padding": true,
+			"blockGap": true
+		},
+		"blocks": {
+			"core/image": {
+				"lightbox": {
+					"allowEditing": true,
+					"enabled": true
+				}
+			}
+		},
+		"color": {
+			"link": true,
+			"palette": [
+				{
+					"color": "var(--wp--custom--color--neutral--100)",
+					"name": "Neutral 100",
+					"slug": "neutral-100"
+				},
+				{
+					"color": "var(--wp--custom--color--neutral--200)",
+					"name": "Neutral 200",
+					"slug": "neutral-200"
+				},
+				{
+					"color": "var(--wp--custom--color--neutral--300)",
+					"name": "Neutral 300",
+					"slug": "neutral-300"
+				},
+				{
+					"color": "var(--wp--custom--color--neutral--400)",
+					"name": "Neutral 400",
+					"slug": "neutral-400"
+				},
+				{
+					"color": "var(--wp--custom--color--neutral--500)",
+					"name": "Neutral 500",
+					"slug": "neutral-500"
+				},
+				{
+					"color": "var(--wp--custom--color--neutral--600)",
+					"name": "Neutral 600",
+					"slug": "neutral-600"
+				},
+				{
+					"color": "var(--wp--custom--color--neutral--700)",
+					"name": "Neutral 700",
+					"slug": "neutral-700"
+				},
+				{
+					"color": "var(--wp--custom--color--neutral--800)",
+					"name": "Neutral 800",
+					"slug": "neutral-800"
+				},
+				{
+					"color": "var(--wp--custom--color--neutral--900)",
+					"name": "Neutral 900",
+					"slug": "neutral-900"
+				}
+			]
+		},
+		"custom": {
+			"color": {
+				"neutral": {
+					"100": "#111111",
+					"200": "#333333",
+					"300": "#666666",
+					"400": "#999999",
+					"500": "#AAAAAA",
+					"600": "#BBBBBB",
+					"700": "#DDDDDD",
+					"800": "#EEEEEE",
+					"900": "#FFFFFF"
+				}
+			}
+		}
+	}
+}
