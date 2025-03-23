@@ -1,0 +1,9 @@
+.wp-block-image {
+	height: 100%
+}
+
+.wp-block-image div,
+.wp-block-image img {
+	height: 100%!important;
+	object-fit: contain!important;
+}

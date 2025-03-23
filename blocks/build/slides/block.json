@@ -1,0 +1,25 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "sim/slides",
+  "version": "0.1.0",
+  "title": "Slides container",
+  "category": "widgets",
+  "icon": "admin-page",
+  "description": "Parent block for the slide block",
+  "example": {},
+  "supports": {
+    "interactivity": true
+  },
+  "allowedBlocks": [
+    "sim/slide",
+    "sim/spline",
+    "sim/spline-offline"
+  ],
+  "textdomain": "sim",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php",
+  "viewScriptModule": "file:./view.js"
+}

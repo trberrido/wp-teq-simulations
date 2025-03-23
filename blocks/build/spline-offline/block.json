@@ -1,0 +1,31 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "sim/spline-offline",
+  "version": "0.1.0",
+  "title": "Spline Offline",
+  "category": "widgets",
+  "icon": "warning",
+  "description": "Offline Spline item",
+  "example": {},
+  "supports": {
+    "interactivity": true,
+    "className": false,
+    "customClassName": false
+  },
+  "parent": [
+    "sim/slides"
+  ],
+  "attributes": {
+    "fileUrl": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "textdomain": "sim",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php",
+  "viewScriptModule": "file:./view.js"
+}

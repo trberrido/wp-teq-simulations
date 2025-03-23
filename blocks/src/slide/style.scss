@@ -1,0 +1,8 @@
+@use '../../common/slide.scss' as slide;
+
+@include slide.view;
+
+.sim-slide {
+	box-sizing: border-box;
+	flex-wrap: nowrap!important;
+}
