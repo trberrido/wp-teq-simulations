@@ -32,7 +32,7 @@ function Edit({
   attributes,
   setAttributes
 }) {
-  const MC_TEMPLATE = [['sim/slide', {}]];
+  const MC_TEMPLATE = [['sim/spline', {}], ['sim/slide', {}]];
   const blockProps = (0,_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_0__.useBlockProps)({
     className: 'sim-slides-editor'
   });

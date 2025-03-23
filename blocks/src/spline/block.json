@@ -17,7 +17,7 @@
 	"attributes": {
 		"url": {
 			"type": "string",
-			"default": "https://prod.spline.design/gMbX5snu32r7ziEy/scene.splinecode"
+			"default": ""
 		}
 	},
 	"textdomain": "sim",

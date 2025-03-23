@@ -23,6 +23,7 @@ export default function Edit( { attributes, setAttributes } ) {
 			<TextControl
 				label="Enter the spline url"
 				value={ attributes.url }
+				placeholder='https://prod.spline.design/...'
 				onChange={ ( url ) => setAttributes( { url } ) }
 			/>
 		</p>

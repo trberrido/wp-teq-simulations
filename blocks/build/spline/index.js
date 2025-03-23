@@ -8,7 +8,7 @@
   \*******************************/
 /***/ ((module) => {
 
-module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"sim/spline","version":"0.1.0","title":"Spline","category":"widgets","icon":"marker","description":"Online Spline item","example":{},"supports":{"interactivity":true,"className":false,"customClassName":false},"parent":["sim/slides"],"attributes":{"url":{"type":"string","default":"https://prod.spline.design/gMbX5snu32r7ziEy/scene.splinecode"}},"textdomain":"sim","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","render":"file:./render.php","viewScriptModule":"file:./view.js"}');
+module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"sim/spline","version":"0.1.0","title":"Spline","category":"widgets","icon":"marker","description":"Online Spline item","example":{},"supports":{"interactivity":true,"className":false,"customClassName":false},"parent":["sim/slides"],"attributes":{"url":{"type":"string","default":""}},"textdomain":"sim","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","render":"file:./render.php","viewScriptModule":"file:./view.js"}');
 
 /***/ }),
 
@@ -56,6 +56,7 @@ function Edit({
     children: ["Online", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_1__.TextControl, {
       label: "Enter the spline url",
       value: attributes.url,
+      placeholder: "https://prod.spline.design/...",
       onChange: url => setAttributes({
         url
       })
