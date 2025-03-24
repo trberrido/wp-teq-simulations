@@ -21,42 +21,6 @@
 
 	}
 
-	@keyframes slidein {
-		0% {
-
-			clip-path: polygon(
-				0 0,		100% 0%,
-				100% 0%, 	0% -20%
-			);
-		}
-
-		100% {
-
-			clip-path: polygon(
-				0 0%,		100% 0%,
-				100% 120%, 	0% 100%
-			);
-		}
-	}
-
-	@keyframes slideout {
-		0% {
-			clip-path: polygon(
-				0 -20%,		100% 0%,
-				100% 120%, 	0% 100%
-			);
-		}
-
-		100% {
-			clip-path: polygon(
-				0 100%,		100% 120%,
-				100% 120%, 	0% 100%
-			);
-		}
-	}
-
-
-
 	.sim-slides__rido {
 		position: fixed;
 		z-index: 998;
@@ -81,13 +45,7 @@
 		}
 
 		.sim-slides__rido-color {
-			background-color: var(--wp--custom--color--neutral--100);
-			opacity: 0;
-			@include fullscreen;
-		}
-
-		.sim-slides__rido-color-2 {
-			background-color: var(--wp--custom--color--neutral--200);
+			background-color: var(--wp--custom--color--neutral--900);
 			opacity: 0;
 			@include fullscreen;
 		}
@@ -100,21 +58,11 @@
 				backdrop-filter: blur(50px);
 				transition: backdrop-filter 1s linear;
 			}
+
 			.sim-slides__rido-color {
-				animation: slidein 1.25s;
-				animation-timing-function: cubic-bezier(0.825, 0.015, 0.210, 0.995);
-				animation-delay: .40s;
 				opacity: 1;
 				transition: opacity .5s linear;
-				transition-delay: .5s;
-			}
-			.sim-slides__rido-color-2 {
-				animation: slidein 1.25s;
-				animation-timing-function: cubic-bezier(0.825, 0.015, 0.210, 0.995);
-				animation-delay: .25s;
-				opacity: 1;
-				transition: opacity .5s linear;
-				transition-delay: .5s;
+				transition-delay: .25s;
 			}
 
 		}
@@ -123,21 +71,14 @@
 			height: 100%;
 			.sim-slides__rido-blur {
 				backdrop-filter: blur(0px);
-				transition: backdrop-filter 0;
+				transition: backdrop-filter 1s linear;
+			//	transition-delay: .25s;
 			}
 			.sim-slides__rido-color {
-				opacity: 1;
-				height: 100%;
-				animation: slideout 1.25s;
-				animation-timing-function: cubic-bezier(0.825, 0.015, 0.210, 0.995);
+				opacity: 0;
+				transition: opacity .25s linear;
 			}
-			.sim-slides__rido-color-2 {
-				opacity: 1;
-				height: 100%;
-				animation: slideout 1.25s;
-				animation-delay: .25s;
-				animation-timing-function: cubic-bezier(0.825, 0.015, 0.210, 0.995);
-			}
+
 		}
 
 	}

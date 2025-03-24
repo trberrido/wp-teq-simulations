@@ -36,10 +36,10 @@ const { actions } = store( 'sim', {
 
 				setTimeout( () => {
 					rido.classList.remove( 'sim-slides__rido--fadeout' );
-				}, 1250);
+				}, 1000);
 
 
-			}, 1750);
+			}, 1000);
 
 		}
 	},

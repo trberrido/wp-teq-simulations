@@ -20,7 +20,6 @@
 
 	<div class="sim-slides__rido">
 		<div class="sim-slides__rido-blur"></div>
-		<div class="sim-slides__rido-color-2"></div>
 		<div class="sim-slides__rido-color"></div>
 	</div>
 

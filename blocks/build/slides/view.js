@@ -96,8 +96,8 @@ const {
         rido.classList.remove('sim-slides__rido--fadein');
         setTimeout(() => {
           rido.classList.remove('sim-slides__rido--fadeout');
-        }, 1250);
-      }, 1750);
+        }, 1000);
+      }, 1000);
     }
   },
   callbacks: {

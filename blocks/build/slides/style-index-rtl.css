@@ -20,22 +20,6 @@
 .wp-block-sim-slides > .sim-slides__nav > button:hover {
   opacity: 0.5;
 }
-@keyframes slidein {
-  0% {
-    clip-path: polygon(0 0, 100% 0%, 100% 0%, 0% -20%);
-  }
-  100% {
-    clip-path: polygon(0 0%, 100% 0%, 100% 120%, 0% 100%);
-  }
-}
-@keyframes slideout {
-  0% {
-    clip-path: polygon(0 -20%, 100% 0%, 100% 120%, 0% 100%);
-  }
-  100% {
-    clip-path: polygon(0 100%, 100% 120%, 100% 120%, 0% 100%);
-  }
-}
 .wp-block-sim-slides .sim-slides__rido {
   position: fixed;
   z-index: 998;
@@ -56,18 +40,7 @@
   height: 100%;
 }
 .wp-block-sim-slides .sim-slides__rido .sim-slides__rido-color {
-  background-color: var(--wp--custom--color--neutral--100);
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-}
-.wp-block-sim-slides .sim-slides__rido .sim-slides__rido-color-2 {
-  background-color: var(--wp--custom--color--neutral--200);
+  background-color: var(--wp--custom--color--neutral--900);
   opacity: 0;
   position: absolute;
   top: 0;
@@ -88,20 +61,9 @@
   transition: backdrop-filter 1s linear, -webkit-backdrop-filter 1s linear;
 }
 .wp-block-sim-slides .sim-slides__rido--fadein .sim-slides__rido-color {
-  animation: slidein 1.25s;
-  animation-timing-function: cubic-bezier(0.825, 0.015, 0.21, 0.995);
-  animation-delay: 0.4s;
   opacity: 1;
   transition: opacity 0.5s linear;
-  transition-delay: 0.5s;
-}
-.wp-block-sim-slides .sim-slides__rido--fadein .sim-slides__rido-color-2 {
-  animation: slidein 1.25s;
-  animation-timing-function: cubic-bezier(0.825, 0.015, 0.21, 0.995);
-  animation-delay: 0.25s;
-  opacity: 1;
-  transition: opacity 0.5s linear;
-  transition-delay: 0.5s;
+  transition-delay: 0.25s;
 }
 .wp-block-sim-slides .sim-slides__rido--fadeout {
   height: 100%;
@@ -109,20 +71,11 @@
 .wp-block-sim-slides .sim-slides__rido--fadeout .sim-slides__rido-blur {
   -webkit-backdrop-filter: blur(0px);
           backdrop-filter: blur(0px);
-  transition: -webkit-backdrop-filter 0;
-  transition: backdrop-filter 0;
-  transition: backdrop-filter 0, -webkit-backdrop-filter 0;
+  transition: -webkit-backdrop-filter 1s linear;
+  transition: backdrop-filter 1s linear;
+  transition: backdrop-filter 1s linear, -webkit-backdrop-filter 1s linear;
 }
 .wp-block-sim-slides .sim-slides__rido--fadeout .sim-slides__rido-color {
-  opacity: 1;
-  height: 100%;
-  animation: slideout 1.25s;
-  animation-timing-function: cubic-bezier(0.825, 0.015, 0.21, 0.995);
-}
-.wp-block-sim-slides .sim-slides__rido--fadeout .sim-slides__rido-color-2 {
-  opacity: 1;
-  height: 100%;
-  animation: slideout 1.25s;
-  animation-delay: 0.25s;
-  animation-timing-function: cubic-bezier(0.825, 0.015, 0.21, 0.995);
+  opacity: 0;
+  transition: opacity 0.25s linear;
 }
